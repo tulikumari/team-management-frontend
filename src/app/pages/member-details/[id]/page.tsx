@@ -36,8 +36,7 @@ export default function ManageTeamMemberPage() {
   }, [id, memberId]);
 
   const handleBack = () => {
-    console.log("from>>>>>",from)
-    if (from === true) {
+    if (from === "true") {
       router.push('/');
     } else {
       router.push("/pages/manage-team-members");
