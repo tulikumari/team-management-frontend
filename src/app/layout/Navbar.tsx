@@ -32,7 +32,7 @@ export default function Navbar() {
         <div className="md:hidden px-6 pb-4 flex flex-col gap-4">
           <Link href="/" onClick={() => setIsOpen(false)} className="hover:underline">Home</Link>
           <Link href="/pages/manage-team-members" onClick={() => setIsOpen(false)} className="hover:underline">Manage Members</Link>
-          <Link href="/pages/manage-team-member" onClick={() => setIsOpen(false)} className="hover:underline">Contact Us</Link>
+          <Link href="/pages/contact-us" onClick={() => setIsOpen(false)} className="hover:underline">Contact Us</Link>
         </div>
       )}
     </nav>
